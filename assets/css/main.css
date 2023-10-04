@@ -136,9 +136,10 @@ ul, ol {
 /* Quote
 /* ================================================= */
 .quote {
+    max-width: 767px;
     position: relative;
     overflow: hidden;
-    margin: 40px 20px;
+    margin: 40px auto;
 }
 
 .quote-line {
