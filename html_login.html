@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>首页</title>
+    <link rel="stylesheet" href="./css/html_index.css">
+    <link rel="stylesheet" href="./css/html_login(min).css">
+    <link rel="stylesheet" href="./css/html_login(max).css">
+    <script src="./js/movemask.js"></script>
+    <script src="./js/function.js"></script>
+</head>
+
+<body>
+    <div class="header" id="header">
+        <div class="header-top">
+            <div class="main">
+                <a href="#">中国考试教育网</a>
+                <img src="./img/headerimg.png" alt="">
+            </div>
+        </div>
+        <div class="header-logo">
+            <div class="main">
+                <a href="#">
+                    <!-- <img src="./img/logo.png" alt=""> -->
+                </a>
+                <nav class="nav" id="nav">
+                    <!-- 大页面滑动块 -->
+                    <div class="nav-mask" id="mask">
+                        <div class="nav-mask-triangle"></div>
+                    </div>
+                    <!-- 小页面下拉菜单 -->
+                    <div class="nav-x" id="x" onclick="X()">
+                        <div class="nav-x-a" id="nav-x-a"></div>
+                        <div class="nav-x-b" id="nav-x-b"></div>
+                    </div>
+                    <!-- 菜单内容 -->
+                    <ul class="nav-ul" id="ul">
+                        <li>
+                            <a href="./html_index.html">首页</a>
+                        </li>
+                        <li>
+                            <a href="#">考试简介</a>
+                        </li>
+                        <li>
+                            <a href="#">考试资料</a>
+                        </li>
+                        <li>
+                            <a href="#">考试公告</a>
+                        </li>
+                        <li>
+                            <a href="#">系统留言</a>
+                        </li>
+                        <li>
+                            <a href="./html_login.html">用户登录</a>
+                        </li>
+                        <li>
+                            <a href="./html_index.html">首页</a>
+                        </li>
+                        <li>
+                            <a href="#">考试简介</a>
+                        </li>
+                        <li>
+                            <a href="#">考试资料</a>
+                        </li>
+                        <li>
+                            <a href="#">考试公告</a>
+                        </li>
+                        <li>
+                            <a href="#">系统留言</a>
+                        </li>
+                        <li>
+                            <a href="./html_login.html">用户登录</a>
+                        </li>
+
+                        <li>
+                            <a href="./html_index.html">首页</a>
+                        </li>
+                        <li>
+                            <a href="#">考试简介</a>
+                        </li>
+                        <li>
+                            <a href="#">考试资料</a>
+                        </li>
+                        <li>
+                            <a href="#">考试公告</a>
+                        </li>
+                        <li>
+                            <a href="#">系统留言</a>
+                        </li>
+                        <li>
+                            <a href="./html_login.html">用户登录</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <div class="content main" id="content">
+        <div class="login">
+            <form>
+                <h1>请登录</h1>
+                <div class="login_box">
+                    <input type="text" required oninvalid="setCustomValidity('请输入用户名！');"
+                        oninput="setCustomValidity('');" />
+                    <label for="">用户名</label>
+                </div>
+                <div class="login_box">
+                    <input type="password" required oninvalid="setCustomValidity('请输入密码！');"
+                        oninput="setCustomValidity('');" />
+                    <label for="">密码</label>
+                    <div style="position: absolute; right: 0;top: 10px;">
+                        <input type="submit" value="" class="submit">
+                    </div>
+
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="foot main">
+
+    </div>
+</body>
+
+
+</html>

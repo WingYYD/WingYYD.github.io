@@ -1,0 +1,82 @@
+@media (max-width:1023px) {
+    /* .login {
+        display: none;
+    } */
+    .login {
+        /* width: 256px; */
+        width: 100%;
+        height: calc(100vh - 115px);
+        justify-content: center;
+        align-items: center;
+        /* border-right: 1px #ddd solid; */
+        box-sizing: border-box;
+    }
+
+    .login>form {
+        width: 400px;
+        /* background-color: #0DA3E2; */
+        flex-direction: column;
+        /* 上下排列 */
+    }
+
+    .login h1 {
+        margin-bottom: 20px;
+        font-size: 32px;
+        font-weight: normal;
+    }
+
+    .login .login_box {
+        position: relative;
+        width: 100%;
+    }
+
+    .login .login_box>input {
+        /* outline: none; */
+        border: none;
+        width: 100%;
+        height: 40px;
+        /* padding: 10px 0; */
+        margin: 0 0 15px 0;
+        /* color: #0DA3E2; */
+        color: #494949;
+        font-size: 17px;
+        border: 1px solid #494949;
+        border-radius: 12px;
+        padding: 18px 16px 0;
+        /* box-sizing: border-box; */
+        background-color: transparent;
+    }
+
+    .login .login_box label {
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding: 20.2px 0;
+        color: #494949;
+        pointer-events: none;
+        transition: all 0.5s;
+        margin: 0 0 0 16px;
+
+    }
+
+    .login .login_box input:focus+label,
+    .login .login_box input:valid+label {
+        top: -10px;
+        /* color: #ddd; */
+        font-size: 12px;
+    }
+    /* .login>form div:nth-last-child(1){
+        
+        justify-content: flex-end;
+    } */
+    .submit{
+        width: 40px;
+        height: 40px;
+        margin-right: 15px;
+        border-radius: 50%;
+        border: transparent;
+        background-image: url(../img/success.svg);
+        /* background-repeat: no-repeat; */
+        /* background-position: 0; */
+   }
+}
